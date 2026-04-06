@@ -1368,7 +1368,7 @@ namespace battleCastle
             c->Object.SubType = rand()%2+10;
 		    c->Weapon[0].Type = -1;
 		    c->Weapon[1].Type = -1;
-			strcpy( c->ID, "±À§º´" );
+			strcpy( c->ID, "±À§º" );
             break;
     
         case 277:

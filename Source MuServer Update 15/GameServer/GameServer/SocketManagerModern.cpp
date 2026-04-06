@@ -30,13 +30,13 @@ bool CSocketManagerModern::StartServer(uint16_t nPort)
 
 bool CSocketManagerModern::CheckPortUse(unsigned short port)
 {
-	using namespace boost::asio;
+	using namespace asio;
 	using ip::tcp;
 
 	io_service svc;
 	tcp::acceptor a(svc);
 
-	boost::system::error_code ec;
+	asio::error_code ec;
 	a.open(tcp::v4(), ec) || a.bind({ tcp::v4(), port }, ec);
 
 	return ec == error::address_in_use;

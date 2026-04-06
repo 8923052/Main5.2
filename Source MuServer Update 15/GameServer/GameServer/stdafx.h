@@ -26,7 +26,7 @@
 #endif
 
 #ifndef GAMESERVER_UPDATE
-#define GAMESERVER_UPDATE 803
+#define GAMESERVER_UPDATE 502
 #endif
 
 #if(GAMESERVER_UPDATE==401)
@@ -52,7 +52,7 @@
 //#endif
 
 #ifndef PROTECT_STATE
-#define PROTECT_STATE 1 
+#define PROTECT_STATE 0 
 #endif
 
 #ifndef ENCRYPT_STATE

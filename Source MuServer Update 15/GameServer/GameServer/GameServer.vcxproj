@@ -98,7 +98,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;GAMESERVER_TYPE=0;GAMESERVER_UPDATE=502;GAMESERVER_LANGUAGE=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\Source\Source MundoMU\Source MundoMU 29112018 (Update 15)\GameServerVS2019\GameServer\Time\include;C:\Libraries\boost_1_75_0\boost;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Time\include;..\..\..\Source Main 5.2\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>

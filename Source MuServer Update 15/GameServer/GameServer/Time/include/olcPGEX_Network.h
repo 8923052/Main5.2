@@ -51,7 +51,7 @@
 
 	Author
 	~~~~~~
-	David Barr, aka javidx9, ©OneLoneCoder 2019, 2020, 2021
+	David Barr, aka javidx9, ï¿½OneLoneCoder 2019, 2020, 2021
 
 */
 
@@ -86,7 +86,7 @@ namespace olc
 {
 	namespace net
 	{
-		namespace asio = boost::asio;
+		// namespace asio = boost::asio; // Removed for standalone ASIO
 		// Message
 
 		// Message Header is sent at start of all messages. The template allows us

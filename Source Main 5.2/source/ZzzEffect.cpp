@@ -16639,7 +16639,7 @@ void MoveEffect( OBJECT *o, int iIndex)
 				// 13. APPEAR EFFECTµé
 				if( fCurrentRate >= 0.0f && fCurrentRate <= 0.5f )
 				{
-					o->Visible = true;		// MoveEffect­ CreateEffect
+					o->Visible = true;		// MoveEffect?CreateEffect
 					BMD*	b = &Models[o->Type];
 					vec3_t	*arrEachBonePos;
 					vec3_t	v3LightModify;
